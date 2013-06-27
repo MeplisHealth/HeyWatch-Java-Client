@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-    	HeyWatchJAXRSClient client = new HeyWatchJAXRSClient("meplis", "meplisheywatch");
+    	HeyWatchJAXRSClient client = new HeyWatchJAXRSClient("username", "password");
     	client.getDownloads();
     }
     
